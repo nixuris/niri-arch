@@ -1,4 +1,3 @@
-@import "~/.cache/rofi/img_path.rasi"
 configuration {
   modi:            "drun,window";
   show-icons:      true;
