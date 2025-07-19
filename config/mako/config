@@ -1,5 +1,5 @@
 layer=overlay
-background-color=#242830
+background-color=#1b1e25
 border-size=3
 border-color=#86afef
 default-timeout=5000
@@ -9,7 +9,7 @@ text-color=#86afef
 outer-margin=0,5,15,0
 anchor=top-center
 border-radius=8
-progress-color=over #86afef
+progress-color=over #343945
 
 icons=1
 max-icon-size=64
