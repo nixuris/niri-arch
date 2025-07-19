@@ -319,7 +319,7 @@ binds {
     Mod+E hotkey-overlay-title="Neovim" { spawn "kitty" "-e" "nvim"; }
     Mod+P hotkey-overlay-title="Btop" { spawn "kitty" "-e" "btop"; }
     Mod+S hotkey-overlay-title="Cmus" { spawn "kitty" "-e" "cmus"; }
-    Mod+T hotkey-overlay-title="Ranger" { spawn "kitty" "-e" "ranger"; }
+    Mod+T hotkey-overlay-title="Ranger" { spawn "env" "EDITOR=nvim" "kitty" "-e" "ranger"; }
 
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument in the end.
