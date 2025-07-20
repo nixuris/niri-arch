@@ -1,7 +1,7 @@
 if status is-interactive
     ~/.config/niri/scripts/sttt scanline --scanline-reverse true -d 0.4 -c 5
-	#fastfetch
     kitten icat ~/.config/niri/pics/rugtrain.gif
+    fastfetch
     set username (whoami)
     echo "				Welcome back, $username!"
     export EDITOR="nvim"
