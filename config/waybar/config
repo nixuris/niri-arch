@@ -233,7 +233,7 @@
     },
     "custom/power": {
       "format": "⏻",
-      "on-click": "exec ~/.config/hypr/scripts/session",
+      "on-click": "exec ~/.config/niri/scripts/session",
       "tooltip": false
     },
     "custom/swaync": {
