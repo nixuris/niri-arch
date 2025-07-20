@@ -14,7 +14,7 @@
     "position": "top",
     "reload_style_on_change": true,
     "gtk-layer-shell": true,
-    "width": 550,
+    "width": 900,
     "height": 54,
     "layer": "bottom",
     "margin-top": 10,
@@ -29,10 +29,13 @@
       "custom/r_end",
     ],
     
-    "modules-center": [],
+    "modules-center": [
+      "custom/l_end",
+      "mpris",
+      "custom/r_end"
+    ],
     
     "modules-right": [
-      
       "custom/l_end",
       "backlight",
       "pulseaudio",
@@ -40,7 +43,7 @@
       "custom/r_end",
       "custom/padd"
     ],
-    
+
     "backlight": {
       "device": "intel_backlight",
       "format": "{icon} {percent}%",
@@ -62,6 +65,11 @@
       "rotate": 0
     },
     
+    "mpris": {
+      "interval": 1,
+      "max-length": 50,
+    },
+
     "memory": {
       "format": "󰾆 {used}GB",
       "format-alt": "󰾆 {percentage}%",
