@@ -21,7 +21,7 @@ return {
         }
 
         dashboard.section.buttons.val = {
-          dashboard.button("❖", "󱙖  Serein CLI Hub", ":lua OpenSereinDashboard()<CR>"),
+          -- dashboard.button("❖", "󱙖  Serein CLI Hub", ":lua OpenSereinDashboard()<CR>"),
           dashboard.button("❖", "  Git Repositories", ":OpenGitRepos <CR>"),
           dashboard.button("❖", "  Open File Manager (Ranger)", ":terminal ranger<CR>"),
           dashboard.button("❖", "󰈞  Find Files", ":Telescope find_files<CR>"),
@@ -41,8 +41,8 @@ return {
       -- Define Serein Dashboard
       function OpenSereinDashboard()
         dashboard.section.header.val = {
-          "Serein CLI Hub",
-          "Manage your Hyprland system",
+          "Serein Hub",
+          "Manage your Niri system",
           " ",
         }
 

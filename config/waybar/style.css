@@ -1,6 +1,5 @@
 * {
-    border: none;
-    border-radius: 0px;
+    border: #88c0d0;
     font-family: "JetBrainsMono Nerd Font";
     font-weight: bold;
     font-size: 13px;
@@ -9,7 +8,7 @@
 
 window#waybar {
     background: #1b1e25;
-    border-radius: 7px;
+    border-radius: 12px;
 }
 
 tooltip {
@@ -108,7 +107,7 @@ tooltip label {
 #custom-r_end{
     color: #86afef;
     font-size: 14;
-    background: #242830;
+    /*background: #242830;*/
     opacity: 1;
     margin: 6px 0px 6px 0px;
     padding-left: 4px;
@@ -129,7 +128,7 @@ tooltip label {
 #battery{
     color: #86afef;
     font-size: 14;
-    background: #242830;
+    /*background: #242830;*/
     opacity: 1;
     border: none;
     border-radius: 6px;
@@ -146,8 +145,6 @@ tooltip label {
 
 
 #custom-logo{
-    color:#1b1e25;
-    background: #86afef;
     font-size: 23;
     padding-left: 4px;
     padding-top: 5px;

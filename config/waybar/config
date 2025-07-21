@@ -16,7 +16,7 @@
     "gtk-layer-shell": true,
     "width": 900,
     "height": 54,
-    "layer": "bottom",
+    "layer": "top",
     "margin-top": 10,
     "mod": "dock",
     
@@ -67,7 +67,7 @@
     
     "mpris": {
       "interval": 1,
-      "max-length": 50,
+      "max-length": 47,
     },
 
     "memory": {
