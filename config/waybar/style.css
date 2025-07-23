@@ -1,11 +1,12 @@
 * {
-    border: #88c0d0;
     font-family: "JetBrainsMono Nerd Font";
     font-weight: bold;
     font-size: 13px;
     min-height: 21px;
 }
-
+#waybar {
+  border: 4px solid #86afef;
+}
 window#waybar {
     background: #1b1e25;
     border-radius: 12px;
