@@ -49,31 +49,44 @@ tooltip label {
     animation: tb_hover 20s ease-in-out 1;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
-
-#mpris{
+#mpris {
+	font-size: 14;
+	color: #2d333f;
+	background: #a3be8c;
+	margin-top: 12px;
+        margin-bottom: 12px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+#custom-cavavis{
 	font-size: 14;
 	color: #a3be8c;
 }
-
-/* #tray{ */
-/* 	background: #3c455c; */
-/* 	font-size: 14; */
-/* 	padding-left: 13px; */
-/* 	padding-right: 13px; */
-/* 	margin-top: 8px; */
-/*         margin-bottom: 8px; */
-/* } */
-
-#temperature,
-#memory,
-#cpu{
-    	font-size: 14;
+#temperature {
+	font-size: 14;
+	color:  #86afef;
+}
+#custom-tempicon {
+	font-size: 14;
 	color: #2d333f;
-	background: #81a1c1;
+	background: #86afef;
 	margin-top: 10px;
         margin-bottom: 10px;
 	padding-left: 13px;
 	padding-right: 13px;
+}
+#memory{
+	font-size: 14;
+	color: #d35e86;
+}
+#custom-memicon{
+    	font-size: 14;
+	color: #2d333f;
+	background: #d35e86;
+	margin-top: 10px;
+        margin-bottom: 10px;
+	padding-left: 13px;
+	padding-right: 18px;
 }
 #clock{
 	font-size: 14;
@@ -87,9 +100,30 @@ tooltip label {
 
 #battery{
 	font-size: 14;
+	background: #c1af79;
+	color: #2d333f;
+	margin-top: 10px;
+        margin-bottom: 10px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+#custom-batext{
+	font-size: 14;
 	color: #c1af79;
 }
-
+#cpu{
+	font-size: 14;
+	color: #85c3a9;
+}
+#custom-cpuicon{
+    	font-size: 14;
+	color: #2d333f;
+	background: #85c3a9;
+	margin-top: 10px;
+        margin-bottom: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
 #network{
 	font-size: 14;
 	color: #bf616a;
@@ -98,4 +132,22 @@ tooltip label {
 #pulseaudio{
 	font-size: 14;
 	color: #80c0d0;
+}
+#custom-networkicon{
+    	font-size: 14;
+	color: #2d333f;
+	background: #bf616a;
+	margin-top: 10px;
+        margin-bottom: 10px;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+#custom-volumeicon{
+    	font-size: 14;
+	color: #2d333f;
+	background: #80c0d0;
+	margin-top: 10px;
+        margin-bottom: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
 }

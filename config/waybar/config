@@ -14,10 +14,10 @@
     "margin-top": 10,
     "mod": "dock",
     
-"modules-left": [ "custom/padd", "tray", "custom/padd-big", "cpu", "custom/padd", "temperature", "custom/padd", "memory" ],
+"modules-left": [ "custom/padd", "tray", "custom/padd-med", "custom/cpuicon", "cpu", "custom/padd-med", "custom/tempicon", "temperature", "custom/padd-med", "custom/memicon", "memory" ],
     
-"modules-center": [ "custom/padd", "mpris", "custom/padd" ],
+"modules-center": [ "custom/padd-med", "mpris", "custom/padd", "custom/cavavis", "custom/padd-med" ],
     
-"modules-right": [ "pulseaudio", "custom/padd-med","network",  "custom/padd-med", "battery", "custom/padd-med", "clock", "custom/padd" ],
+"modules-right": [ "custom/volumeicon", "pulseaudio", "custom/padd-med", "custom/networkicon", "network",  "custom/padd-med", "battery", "custom/batext", "custom/padd-med", "clock", "custom/padd" ],
 
 },]
