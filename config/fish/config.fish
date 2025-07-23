@@ -1,5 +1,4 @@
 if status is-interactive
-    ~/.config/niri/scripts/sttt scanline --scanline-reverse true -d 0.4 -c 5
     kitten icat ~/.config/niri/pics/rugtrain.gif
     fastfetch
     set username (whoami)
@@ -12,7 +11,7 @@ if status is-interactive
     set -U fish_color_param normal
     set -U fish_color_error red
 
-    alias xs="paru -S"
+    alias xs="paru -S --needed"
     alias xr="paru -Runs"
     alias xu="paru"
 

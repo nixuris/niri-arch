@@ -8,7 +8,7 @@
       ██║   ╚██████╔╝██║     
       ╚═╝    ╚═════╝ ╚═╝     
 */
-    
+//top bar config    
     "exclusive": true,
     "passthrough": false,
     "position": "top",
@@ -152,6 +152,7 @@
   ╚══════╝╚═╝╚═════╝ ╚══════╝
                            
 */
+//side bar config
   {
     "exclusive": true,
     "gtk-layer-shell": true,
