@@ -16,6 +16,7 @@ if status is-interactive
     alias xu="paru"
 
     alias nvidia-gpu="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia"
+    alias gcs="git clone --depth=1"
     alias e="nvim"
     alias vim="nvim"
     alias vi="nvim"
