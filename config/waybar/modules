@@ -62,7 +62,7 @@
 	"format": "{}",
 },
 "custom/memicon": {
-	"format": ""
+	"format": "RAM"
 },
     "memory": {
       "format": " {used}GB",
@@ -117,7 +117,6 @@
 
     "battery": {
       "format": "{icon}",
-      "format-alt": "{time}",
       "format-icons": [
         "󰂎",
         "󰁺",
@@ -129,11 +128,6 @@
         "󰂀",
         "󰂁"
       ],
-      "states": {
-        "critical": 20,
-        "good": 95,
-        "warning": 30
-      }
     },
     
     "bluetooth": {
@@ -176,7 +170,7 @@
       "tooltip": false
     },
     "network": {
-      "format-alt": "  {essid}  {bandwidthDownBytes:<1}  {bandwidthUpBytes:<1}",
+      "format-alt": " {essid}  {bandwidthDownBytes:<1}  {bandwidthUpBytes:<1}",
       "format-disconnected": "󰖪 ",
       "format-ethernet": "󰈀 ",
       "format-linked": "󰈀 {ifname} (No IP)",
