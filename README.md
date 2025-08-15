@@ -1,4 +1,4 @@
-# serein-niri
+# niri-arch
 ---
 ## Note for launching Xorg apps in Niri
 
